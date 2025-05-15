@@ -1,5 +1,5 @@
 % Read the input image
-image = imread("D:\pictures\gray2.jpg");
+image = imread("/Image Processing/Input Images/girl.jpeg"); % change path as required
 
 % Convert the image to grayscale if it's not already
 if size(image, 3) == 3
